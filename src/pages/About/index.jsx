@@ -7,6 +7,7 @@ import Image from "./components/Image";
 import Review from "./components/Review";
 import Social from "./components/Social";
 import Feature from "./components/Feature";
+import Slogan from "./components/Slogan";
 import Intro from "./components/Intro";
 function About() {
     return (

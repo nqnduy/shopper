@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 function ProductModal() {
     return (
         <div className="modal fade" id="modalProduct" tabIndex={-1} role="dialog" aria-hidden="true">
@@ -289,7 +289,7 @@ function ProductModal() {
                                         <div className="form-row">
                                             <div className="col-12 col-lg-auto">
                                                 {/* Quantity */}
-                                                <select className="custom-select mb-2">
+                                                <select className="custom-select mb-2" defaultValue={"DEFAULT"}>
                                                     <option value={1} selected>
                                                         1
                                                     </option>

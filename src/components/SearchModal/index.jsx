@@ -19,7 +19,7 @@ function SearchModal() {
                                 <label className="sr-only" htmlFor="modalSearchCategories">
                                     Categories:
                                 </label>
-                                <select className="custom-select" id="modalSearchCategories">
+                                <select className="custom-select" id="modalSearchCategories" defaultValue={"DEFAULT"}>
                                     <option selected>All Categories</option>
                                     <option>Women</option>
                                     <option>Men</option>

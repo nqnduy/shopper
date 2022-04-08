@@ -35,7 +35,7 @@ function ShoppingCartModal() {
                                     {/*Footer */}
                                     <div className="d-flex align-items-center">
                                         {/* Select */}
-                                        <select className="custom-select custom-select-xxs w-auto">
+                                        <select className="custom-select custom-select-xxs w-auto" defaultValue={"DEFAULT"}>
                                             <option value={1}>1</option>
                                             <option value={1}>2</option>
                                             <option value={1}>3</option>
@@ -68,7 +68,7 @@ function ShoppingCartModal() {
                                     {/*Footer */}
                                     <div className="d-flex align-items-center">
                                         {/* Select */}
-                                        <select className="custom-select custom-select-xxs w-auto">
+                                        <select className="custom-select custom-select-xxs w-auto" defaultValue={"DEFAULT"}>
                                             <option value={1}>1</option>
                                             <option value={1}>2</option>
                                             <option value={1}>3</option>
