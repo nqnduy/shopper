@@ -9,6 +9,7 @@ import {
     ACCOUNT_PERSONAL_PATH,
     ACCOUNT_PAYMENT_PATH,
     ACCOUNT_ADDRESSES_PATH,
+    PRODUCT_PATH,
 } from "./constants/path";
 import MainLayout from "./layouts/MainLayout";
 import About from "./pages/About";
@@ -21,6 +22,7 @@ import AccountAddresses from "./pages/Account/Addresses";
 import AccountPayment from "./pages/Account/Payment";
 import Er404 from "./pages/Er404";
 import Shop from "./pages/Shop";
+import Product from "./pages/product";
 
 function App() {
     return (
@@ -30,6 +32,7 @@ function App() {
                     <Route path={HOME_PATH} element={<Home />} />
                     <Route path={ABOUT_PATH} element={<About />} />
                     <Route path={SHOP_PATH} element={<Shop />} />
+                    <Route path={PRODUCT_PATH} element={<Product />} />
                     <Route path={ACCOUNT_PATH} element={<Account path={ACCOUNT_PATH} />}>
                         <Route index element={<AccountOrders />} />
                         <Route path={ACCOUNT_WISHLIST_PATH} element={<AccountWishlist />} />

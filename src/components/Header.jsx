@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { HOME_PATH } from "../constants/path";
 function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
@@ -24,9 +26,9 @@ function Header() {
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item dropdown">
                             {/* Toggle */}
-                            <a className="nav-link" data-toggle="dropdown" href="#">
+                            <NavLink className="nav-link" data-toggle="dropdown" to={HOME_PATH}>
                                 Home
-                            </a>
+                            </NavLink>
                             {/* Menu */}
                             <div className="dropdown-menu">
                                 <div className="card card-lg">

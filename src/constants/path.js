@@ -2,6 +2,7 @@ export const HOME_PATH = "/";
 export const ABOUT_PATH = "/about";
 export const SHOP_PATH = "/shop";
 export const ACCOUNT_PATH = "/account"
+export const PRODUCT_PATH = "/product";
 export const ACCOUNT_ORDERS_PATH = "orders"
 export const ACCOUNT_WISHLIST_PATH = "wishlist"
 export const ACCOUNT_ADDRESSES_PATH = "addresses"
